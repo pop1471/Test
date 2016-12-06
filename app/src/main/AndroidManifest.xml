@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.acta.acta">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/tab_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".CountryInformationSouthKoreaCities" />
+        <activity android:name=".CountryInformationCountrySearch">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CountryInformationSouthKorea" />
+        <activity android:name=".CountryInformationSouthKoreaGeneralInfo" />
+        <activity android:name=".CountryInformationSouthKoreaLanguage" />
+        <activity android:name=".CountryInformationBurundi" />
+        <activity android:name=".CountryInformationBurundiGeneralInfo" />
+        <activity android:name=".CountryInformationBurundiLanguage" />
+        <activity android:name=".CountryInformationSriLanka" />
+        <activity android:name=".CountryInformationSriLankaGeneralInfo" />
+        <activity android:name=".CountryInformationSriLankaLanguage"></activity>
+    </application>
+
+</manifest>
