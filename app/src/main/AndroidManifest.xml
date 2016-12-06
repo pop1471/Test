@@ -9,13 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".CountryInformationSouthKoreaCities" />
-        <activity android:name=".CountryInformationCountrySearch">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".CountryInformationCountrySearch"></activity>
         <activity android:name=".CountryInformationSouthKorea" />
         <activity android:name=".CountryInformationSouthKoreaGeneralInfo" />
         <activity android:name=".CountryInformationSouthKoreaLanguage" />
@@ -24,7 +18,17 @@
         <activity android:name=".CountryInformationBurundiLanguage" />
         <activity android:name=".CountryInformationSriLanka" />
         <activity android:name=".CountryInformationSriLankaGeneralInfo" />
-        <activity android:name=".CountryInformationSriLankaLanguage"></activity>
+        <activity android:name=".CountryInformationSriLankaLanguage" />
+        <activity
+            android:name=".menu"
+            android:label="@string/title_activity_menu"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
